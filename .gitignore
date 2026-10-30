@@ -1,0 +1,87 @@
+# Python environments
+**/venv/
+**/.venv/
+**/*_venv/
+**/env/
+
+# Python cache
+**/__pycache__/
+*.pyc
+.pytest_cache/
+
+# Large videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Large AI models
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# Generated outputs
+**/output/
+
+# Large datasets
+**/videos/
+**/dataset/videos/
+
+# Large binary dependencies
+*.dll
+*.pyd
+
+# Node dependencies
+node_modules/
+
+# Broken nested repository - preserve locally
+weight_detect/Anemia/goat_eye_detection/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Next.js
+**/.next/
+**/node_modules/
+
+# Python environments
+**/venv/
+**/.venv/
+**/*_venv/
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# AI model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated output
+**/output/
+
+# Large datasets
+**/videos/
+
+# Binary dependencies
+*.dll
+*.pyd
+
+# Nested repository
+/weight_detect/Anemia/goat_eye_detection/
+
